@@ -24,7 +24,6 @@ console.log("Priority Target Profile Identified:");
 console.log("\n--- COMBAT MATRIX ENVELOPE: LOGGING ENGAGEABLE OBJECTS ---");
 
 // DEMO: Use .forEach() to print each of the low risk targets on a separate line.
-lowRiskTargets.forEach(target => console.log(target));
 
 // DEMO: Make a git commit!
 
