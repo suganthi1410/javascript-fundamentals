@@ -176,16 +176,16 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ### 7 - Function Basics
 
-| Topics                                 | Code                                                                       | Videos                               | Length |
-| :------------------------------------- | :------------------------------------------------------------------------- | :----------------------------------- | -----: |
-| Introduction to Functions              | [functions-intro](/tutorials/07-functions/functions-intro/)                | [Demo](https://youtu.be/u7lPKTwcohc) |   6:08 |
-| Function Input & Output                | [input-output](/tutorials/07-functions/input-output/)                      | [Demo](https://youtu.be/jSErMvfcwqI) |  10:04 |
-| Variable Scope                         | [variable-scope](/tutorials/07-functions/variable-scope/)                  | [Demo](https://youtu.be/th_YkzQh6is) |   6:13 |
-| Procedural Recursion                   | [recursion-procedural](/tutorials/07-functions/recursion-procedural/)      | [Demo](https://youtu.be/i8wz8EKtuBo) |   9:50 |
-| Reductive Recursion                    | [recursion-reductive](/tutorials/07-functions/recursion-reductive/)        | [Demo](https://youtu.be/Nwtxb4WMeck) |   4:51 |
-| Helper Functions                       | [helper-functions](/tutorials/07-functions/helper-functions)               | _Coming soon!_                       |        |
-| Interactive Programming with Functions | [interactive-programming](/tutorials/07-functions/interactive-programming) | _Coming soon!_                       |        |
-|                                        |                                                                            | **TOTAL**                            |        |
+| Topics                                 | Code                                                                  | Videos                               | Length |
+| :------------------------------------- | :-------------------------------------------------------------------- | :----------------------------------- | -----: |
+| Introduction to Functions              | [functions-intro](/tutorials/07-functions/functions-intro/)           | [Demo](https://youtu.be/u7lPKTwcohc) |   6:08 |
+| Function Input & Output                | [input-output](/tutorials/07-functions/input-output/)                 | [Demo](https://youtu.be/jSErMvfcwqI) |  10:04 |
+| Variable Scope                         | [variable-scope](/tutorials/07-functions/variable-scope/)             | [Demo](https://youtu.be/th_YkzQh6is) |   6:13 |
+| Procedural Recursion                   | [recursion-procedural](/tutorials/07-functions/recursion-procedural/) | [Demo](https://youtu.be/i8wz8EKtuBo) |   9:50 |
+| Reductive Recursion                    | [recursion-reductive](/tutorials/07-functions/recursion-reductive/)   | [Demo](https://youtu.be/Nwtxb4WMeck) |   4:51 |
+| Helper Functions                       | [helper-functions](/tutorials/07-functions/helper-functions)          | _Coming soon!_                       |        |
+| Interactive Programming with Functions | _Coming soon!_                                                        | _Coming soon!_                       |        |
+|                                        |                                                                       | **TOTAL**                            |        |
 
 ---
 
@@ -204,9 +204,18 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ---
 
-### 9 - Anonymous & Higher-Order Functions
+### 9 - More on Functions
 
-_Coming soon!_
+| Topics                                   | Code                                                                           | Videos         | Length |
+| :--------------------------------------- | :----------------------------------------------------------------------------- | :------------- | -----: |
+| Arrow Function Syntax                    | [arrow-syntax](/tutorials/09-more-functions/arrow-syntax/)                     | _Coming soon!_ |        |
+| Anonymous Functions                      | [anonymous-functions](/tutorials/09-more-functions/anonymous-functions/)       | _Coming soon!_ |        |
+| Higher-Order Functions                   | [higher-order-functions](/tutorials/09-more-functions/higher-order-functions/) | _Coming soon!_ |        |
+| Special Array Methods: Looping & Mapping | [looping-mapping](/tutorials/09-more-functions/looping-mapping/)               | _Coming soon!_ |        |
+| Special Array Methods: Querying          | [querying](/tutorials/09-more-functions/querying/)                             | _Coming soon!_ |        |
+| Special Array Methods: Reducing          | [reducing](/tutorials/09-more-functions/reducing/)                             | _Coming soon!_ |        |
+| Special Array Methods: Advanced Sorting  | [advanced-sorting](/tutorials/09-more-functions/advanced-sorting/)             | _Coming soon!_ |        |
+|                                          |                                                                                | **TOTAL**      |        |
 
 ---
 
