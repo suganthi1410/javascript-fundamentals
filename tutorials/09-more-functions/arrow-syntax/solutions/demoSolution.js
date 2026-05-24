@@ -27,12 +27,12 @@
 
 // STAGE 1: Traditional Named Function Declaration
 function traditionalCalculateFuel(mass) {
-    return mass * 11.2;
+	return mass * 11.2;
 }
 
 // STAGE 2: Block-Body Arrow Function (Explicit Return)
-const blockArrowCalculateFuel = (mass) => {
-    return mass * 11.2; 
+const blockArrowCalculateFuel = mass => {
+	return mass * 11.2;
 };
 
 // STAGE 3: Concise-Body Arrow Function (Implicit Return)
@@ -42,14 +42,13 @@ const conciseCalculateFuel = mass => mass * 11.2;
 // Invoking the concise arrow function
 console.log(`Implicit Return Fuel Calculation: ${conciseCalculateFuel(100)} t`);
 
-
 /** EXAMPLE 2 - THE HOISTING PARADOX **/
 
 // 1. Testing Traditional Hoisting (Succeeds)
-console.log(`Traditional Probe Reading: ${readTraditionalSensor()}`); 
+console.log(`Traditional Probe Reading: ${readTraditionalSensor()}`);
 
 function readTraditionalSensor() {
-    return "Telemetry Active";
+	return "Telemetry Active";
 }
 
 // 2. Testing Arrow Function Hoisting (Fails!)

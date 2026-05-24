@@ -2,17 +2,17 @@
 
 let equipment = ["Drill", "Scanner", "Drill", "Laser"];
 
-/** EXAMPLE 1 - INCLUDES **/ 
+/** EXAMPLE 1 - INCLUDES **/
 
 // DEMO: Check if the list of equipment includes a scanner,
 // then print the result.
 
-/** EXAMPLE 2 - INDEXOF **/ 
+/** EXAMPLE 2 - INDEXOF **/
 
 // DEMO: Find the first drill in the list,
 // then print the result.
 
-/** EXAMPLE 3 - LASTINDEXOF **/ 
+/** EXAMPLE 3 - LASTINDEXOF **/
 
 // DEMO: Find the last drill in the list,
 // then print the result.

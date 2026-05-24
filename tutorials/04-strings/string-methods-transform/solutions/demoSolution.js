@@ -20,13 +20,13 @@
 
 let rawData = "   lv-426-xenomorph   ";
 
-/** EXAMPLE 1 - CHANGING CASE **/ 
+/** EXAMPLE 1 - CHANGING CASE **/
 
 // Convert to a loud, emergency shout
 let shout = rawData.toUpperCase();
 console.log(shout); // "   LV-426-XENOMORPH   "
 
-/** EXAMPLE 2 - TRIMMING WHITESPACE **/ 
+/** EXAMPLE 2 - TRIMMING WHITESPACE **/
 
 // Remove the leading and trailing spaces
 let cleanData = rawData.trim();

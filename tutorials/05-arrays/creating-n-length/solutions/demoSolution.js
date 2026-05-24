@@ -19,14 +19,14 @@
     map, or a set of sensor readings before the sensors are turned on.
 */
 
-/** EXAMPLE 1 - THE CONSTRUCTOR **/ 
+/** EXAMPLE 1 - THE CONSTRUCTOR **/
 
 // Creates an array with 5 empty slots
 let lifeSupportSensors = Array(5);
 console.log(lifeSupportSensors); // [ <5 empty items> ]
 console.log(lifeSupportSensors.length); // 5
 
-/** EXAMPLE 2 - FILLING DATA **/ 
+/** EXAMPLE 2 - FILLING DATA **/
 
 // Initialize all oxygen tanks to 100%
 let oxygenTanks = Array(4).fill(100);
@@ -35,7 +35,7 @@ console.log(oxygenTanks); // [100, 100, 100, 100]
 /** EXAMPLE 3 - EMPTY vs NULL vs UNDEFINED **/
 
 // Empty slots are "holes". It's better to be explicit.
-let cabinSeats = Array(3).fill(null); 
+let cabinSeats = Array(3).fill(null);
 // Now we know the seats exist, but they are currently empty.
 console.log(cabinSeats); // [null, null, null]
 

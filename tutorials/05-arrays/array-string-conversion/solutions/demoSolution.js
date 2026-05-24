@@ -18,14 +18,14 @@
     .split(""), it breaks the string into individual characters.
 */
 
-/** EXAMPLE 1 - SPLITTING BY SPACES **/ 
+/** EXAMPLE 1 - SPLITTING BY SPACES **/
 
 let sentence = "Engage thrusters now";
 
-let words = sentence.split(" "); 
+let words = sentence.split(" ");
 console.log(words); // ["Engage", "thrusters", "now"]
 
-/** EXAMPLE 2 - JOINING WITH HYPHENS **/ 
+/** EXAMPLE 2 - JOINING WITH HYPHENS **/
 
 let dateParts = ["2026", "05", "01"];
 

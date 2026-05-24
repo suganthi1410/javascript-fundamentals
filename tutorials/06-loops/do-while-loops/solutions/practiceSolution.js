@@ -15,10 +15,9 @@ let engineTemp = 50;
     (Note: Since it's 50 already, the loop should still run once!)
 */
 do {
-    engineTemp += 20;
-    console.log("Warming engines... Current temp: " + engineTemp);
+	engineTemp += 20;
+	console.log("Warming engines... Current temp: " + engineTemp);
 } while (engineTemp < 50);
-
 
 /** EXERCISE 2: SHUTTLE DOCKING **/
 
@@ -29,10 +28,9 @@ let distance = 10;
     until 'distance' is 0 or less. Log the distance in each loop.
 */
 do {
-    distance -= 5;
-    console.log("Docking distance: " + distance);
+	distance -= 5;
+	console.log("Docking distance: " + distance);
 } while (distance > 0);
-
 
 /** EXERCISE 3: THE REBOOT SEQUENCE **/
 
@@ -44,10 +42,9 @@ let systemReady = false;
     The loop should run while 'systemReady' is false.
 */
 do {
-    console.log("Rebooting...");
-    systemReady = true;
+	console.log("Rebooting...");
+	systemReady = true;
 } while (systemReady === false);
-
 
 /** EXERCISE 4: AMBIENT NOISE GATHERING **/
 
@@ -58,8 +55,8 @@ let samplesCollected = 0;
     until it reaches 3. Log "Sample #" followed by the count.
 */
 do {
-    samplesCollected++;
-    console.log("Sample #" + samplesCollected);
+	samplesCollected++;
+	console.log("Sample #" + samplesCollected);
 } while (samplesCollected < 3);
 
 // Great job!

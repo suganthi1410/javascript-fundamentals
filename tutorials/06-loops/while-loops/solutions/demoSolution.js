@@ -18,25 +18,25 @@
     is found" or "Keep running as long as the battery is above 0%."
 */
 
-/** EXAMPLE 1 - MANUAL COUNTING **/ 
+/** EXAMPLE 1 - MANUAL COUNTING **/
 
 let count = 3;
 
 while (count > 0) {
-    console.log("T-Minus: " + count);
-    count--; // Crucial: This ensures the loop eventually stops!
+	console.log("T-Minus: " + count);
+	count--; // Crucial: This ensures the loop eventually stops!
 }
 console.log("Blast off!");
 
-/** EXAMPLE 2 - DYNAMIC DEPLETION **/ 
+/** EXAMPLE 2 - DYNAMIC DEPLETION **/
 
 let battery = 100;
 let distanceTraveled = 0;
 
 while (battery > 0) {
-    distanceTraveled += 50;
-    battery -= 20; // Consuming 20% power per 50km
-    console.log(`Traveled ${distanceTraveled}km. Battery at ${battery}%`);
+	distanceTraveled += 50;
+	battery -= 20; // Consuming 20% power per 50km
+	console.log(`Traveled ${distanceTraveled}km. Battery at ${battery}%`);
 }
 
 /** EXAMPLE 3 - SEARCHING UNTIL FOUND **/
@@ -46,6 +46,6 @@ let card;
 
 // Keep taking the first card until we find the Ace
 while (card !== "Ace") {
-    card = deck.shift();
-    console.log("Drew: " + card);
+	card = deck.shift();
+	console.log("Drew: " + card);
 }

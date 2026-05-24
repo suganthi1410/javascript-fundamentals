@@ -24,7 +24,7 @@ const logScannerReport = sector => console.log(`Internal scanner pinged at ${sec
 logScannerReport("Sector Delta");
 logScannerReport("Sector Alpha");
 
-// A truly anonymous function is run instantly, right where it is defined, 
+// A truly anonymous function is run instantly, right where it is defined,
 // by wrapping the arrow definition in grouping parentheses and calling it
 // with (argument) at the end.
 (sector => console.log(`Internal scanner pinged at ${sector}.`))("Sector Beta");

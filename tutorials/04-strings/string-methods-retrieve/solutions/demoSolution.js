@@ -22,20 +22,20 @@
 
 let serialNumber = "SN-992-ALPHA";
 
-/** EXAMPLE 1 - CHARAT **/ 
+/** EXAMPLE 1 - CHARAT **/
 
 // Extracting a single character by index
 let fourthChar = serialNumber.charAt(3);
 console.log(fourthChar); // 9
 
-/** EXAMPLE 2 - SLICE (Range) **/ 
+/** EXAMPLE 2 - SLICE (Range) **/
 
 // Extract the middle numbers (index 3 to index 6)
 // We use 6 as the 'end' so it grabs 3, 4, and 5.
 let numericPart = serialNumber.slice(3, 6);
 console.log(numericPart); // 992
 
-/** EXAMPLE 3 - SLICE (To the end) **/ 
+/** EXAMPLE 3 - SLICE (To the end) **/
 
 // Extract the suffix starting from index 7
 let suffix = serialNumber.slice(7);

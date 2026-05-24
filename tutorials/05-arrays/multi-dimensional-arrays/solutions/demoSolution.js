@@ -20,22 +20,21 @@
     Visualizing it: matrix[row][column]
 */
 
-/** EXAMPLE 1 - THE NESTED ARRAY **/ 
+/** EXAMPLE 1 - THE NESTED ARRAY **/
 
 let solarSystemMap = [
-    ["Mercury", "Venus"],   // Row 0
-    ["Earth", "Mars"],      // Row 1
-    ["Jupiter", "Saturn"]   // Row 2
-    ["Uranus", "Neptune"]   // Row 3
+	["Mercury", "Venus"], // Row 0
+	["Earth", "Mars"], // Row 1
+	["Jupiter", "Saturn"][("Uranus", "Neptune")], // Row 2 // Row 3
 ];
 
-/** EXAMPLE 2 - ACCESSING NESTED DATA **/ 
+/** EXAMPLE 2 - ACCESSING NESTED DATA **/
 
 // Step 1: Get the second row (index 1)
 let secondRow = solarSystemMap[1]; // ["Earth", "Mars"]
 
 // Step 2: Get "Mars" from that row (index 1)
-let planetMars = solarSystemMap[1][1]; 
+let planetMars = solarSystemMap[1][1];
 console.log(planetMars); // "Mars"
 
 /** EXAMPLE 3 - UPDATING NESTED DATA **/
@@ -48,7 +47,13 @@ console.log(solarSystemMap[0]); // ["MERCURY", "Venus"]
 
 // Arrays can go even deeper! Here's a 3D array.
 let cube = [
-    [ [1, 2], [3, 4] ],
-    [ [5, 6], [7, 8] ]
+	[
+		[1, 2],
+		[3, 4],
+	],
+	[
+		[5, 6],
+		[7, 8],
+	],
 ];
 console.log(cube[0][1][0]); // 3

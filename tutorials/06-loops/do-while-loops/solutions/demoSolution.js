@@ -17,32 +17,32 @@
     (Note the semicolon at the end!)
 */
 
-/** EXAMPLE 1 - THE BASIC FLIP **/ 
+/** EXAMPLE 1 - THE BASIC FLIP **/
 
 let energy = 0;
 
 // A standard while loop wouldn't run at all here.
 while (energy > 0) {
-    console.log("This will not print.");
+	console.log("This will not print.");
 }
 
 // A do...while runs once, then stops.
 do {
-    console.log("System initialization sequence started...");
+	console.log("System initialization sequence started...");
 } while (energy > 0);
 
-/** EXAMPLE 2 - USER INPUT SIMULATION **/ 
+/** EXAMPLE 2 - USER INPUT SIMULATION **/
 
 let accessGranted = false;
 let attempts = 0;
 
 do {
-    attempts++;
-    console.log("Attempting to bypass security... Attempt: " + attempts);
-    
-    if (attempts === 3) {
-        accessGranted = true;
-    }
+	attempts++;
+	console.log("Attempting to bypass security... Attempt: " + attempts);
+
+	if (attempts === 3) {
+		accessGranted = true;
+	}
 } while (!accessGranted);
 
 console.log("Access override successful.");

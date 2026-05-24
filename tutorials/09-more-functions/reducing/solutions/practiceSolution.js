@@ -18,13 +18,12 @@ let totalWeaponsMass = torpedoCrateWeightsKg.reduce((acc, weight) => acc + weigh
 
 console.log(`Total Weapons Deck Allocation Payload: ${totalWeaponsMass}kg.`);
 
-
 /** EXERCISE 2: SECTOR SURVEY POPULATION SUMMARY **/
 
 const sectorHabitationHubs = [
-    { sectorName: "Ceres Station Core", populationCount: 600000 },
-    { sectorName: "Tycho Shipyards", populationCount: 15000 },
-    { sectorName: "Eros Outpost", populationCount: 100000 }
+	{ sectorName: "Ceres Station Core", populationCount: 600000 },
+	{ sectorName: "Tycho Shipyards", populationCount: 15000 },
+	{ sectorName: "Eros Outpost", populationCount: 100000 },
 ];
 
 /*
@@ -34,7 +33,9 @@ const sectorHabitationHubs = [
     Store the final number in a constant named 'totalSectorPopulation' and log it.
 */
 const totalSectorPopulation = sectorHabitationHubs.reduce((acc, hub) => {
-    return acc + hub.populationCount;
+	return acc + hub.populationCount;
 }, 0);
 
-console.log(`Total census volume across local coordinate quadrants: ${totalSectorPopulation} citizens.`);
+console.log(
+	`Total census volume across local coordinate quadrants: ${totalSectorPopulation} citizens.`
+);

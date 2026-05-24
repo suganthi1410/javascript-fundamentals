@@ -16,7 +16,6 @@ let medicalSupplies = ["Bandages", "Antiseptic"];
 medicalSupplies.push("Painkillers");
 console.log(medicalSupplies);
 
-
 /** EXERCISE 2: CARGO OFFLOADING **/
 
 let cargoHold = ["Titanium", "Gold", "Iron"];
@@ -30,7 +29,6 @@ let unloadedItem = cargoHold.pop();
 console.log(unloadedItem); // Iron
 console.log(cargoHold); // ["Titanium", "Gold"]
 
-
 /** EXERCISE 3: PRIORITY DOCKING **/
 
 let dockingQueue = ["Shuttle-A", "Shuttle-B"];
@@ -43,7 +41,6 @@ let dockingQueue = ["Shuttle-A", "Shuttle-B"];
 dockingQueue.unshift("Emergency-1");
 console.log(dockingQueue);
 
-
 /** EXERCISE 4: FIRST IN LINE **/
 
 let missionTasks = ["Refuel", "Clean Solar Panels", "Check Oxygen"];
@@ -52,7 +49,7 @@ let missionTasks = ["Refuel", "Clean Solar Panels", "Check Oxygen"];
     The first task is being started. Remove the FIRST 
     item from missionTasks, then print the updated array.
 */
-let finishedTask = missionTasks.shift()
+let finishedTask = missionTasks.shift();
 console.log(finishedTask); // "Refuel"
 console.log(missionTasks); // ["Clean Solar Panels", "Check Oxygen"]
 

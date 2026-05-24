@@ -13,7 +13,7 @@
 let hullBreach = true;
 
 if (hullBreach) {
-    // DEMO: Call the function to sound the siren
+	// DEMO: Call the function to sound the siren
 }
 
 // DEMO: Make a git commit!

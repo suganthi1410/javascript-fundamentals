@@ -17,7 +17,6 @@ console.log("Sending outbound radar frequency sweep...");
 */
 setTimeout(() => console.log("📡 Echo received: Object detected at 12,000km."), 3000);
 
-
 /** EXERCISE 2: EMERGENCY KLAXON TIMER **/
 
 console.log("Airlock seal breach detected! Charging secondary containment...");

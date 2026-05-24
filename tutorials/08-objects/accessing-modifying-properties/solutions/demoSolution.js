@@ -18,9 +18,9 @@
 /** EXAMPLE 1 - DOT VS BRACKET BASICS **/
 
 const cargoBay = {
-    manifestId: "CB-04",
-    "containment-status": "SECURE", // Key with a dash requires quotes
-    tonnage: 120
+	manifestId: "CB-04",
+	"containment-status": "SECURE", // Key with a dash requires quotes
+	tonnage: 120,
 };
 
 // Reading and Modifying using Dot Notation
@@ -32,13 +32,12 @@ console.log(`Bay ${cargoBay.manifestId} holds ${cargoBay.tonnage}t of cargo.`);
 cargoBay["containment-status"] = "VENTING";
 console.log(`Alert Status: ${cargoBay["containment-status"]}`);
 
-
 /** EXAMPLE 2 - DYNAMIC VARIABLE LOOKUPS **/
 
 const engineCore = {
-    temperature: 3200,
-    pressure: 150,
-    radiation: 12
+	temperature: 3200,
+	pressure: 150,
+	radiation: 12,
 };
 
 // A crew member wants to look up a stat

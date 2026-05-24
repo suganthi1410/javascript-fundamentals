@@ -20,13 +20,13 @@
 
 let messyInput = "   protocol-alpha-9   ";
 
-/** EXAMPLE 1 - CLEAN AND SHOUT **/ 
+/** EXAMPLE 1 - CLEAN AND SHOUT **/
 
 // We trim the space FIRST, then convert to uppercase.
 let cleanShout = messyInput.trim().toUpperCase();
 console.log(cleanShout); // "PROTOCOL-ALPHA-9"
 
-/** EXAMPLE 2 - EXTRACT AND REPLACE **/ 
+/** EXAMPLE 2 - EXTRACT AND REPLACE **/
 
 // 1. Slice out "alpha-9" (index 12 to 19)
 // 2. Replace "alpha" with "omega"

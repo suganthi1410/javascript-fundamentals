@@ -2,14 +2,14 @@
 
 let missionUpdate = "Targeting Mars: Arrival in 40 days.";
 
-/** EXAMPLE 1 - INDEX OF **/ 
+/** EXAMPLE 1 - INDEX OF **/
 
 // DEMO: Find where "Mars" starts and log the result.
 
 // DEMO: Find where "Moon" starts and log the result.
 // (what happens when it doesn't exist?)
 
-/** EXAMPLE 2 - INCLUDES **/ 
+/** EXAMPLE 2 - INCLUDES **/
 
 // DEMO: Determine if the substring "URGENT" exists or not
 

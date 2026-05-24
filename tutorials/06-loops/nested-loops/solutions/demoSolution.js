@@ -17,29 +17,29 @@
     and j for the inner loop.
 */
 
-/** EXAMPLE 1 - THE BASIC GRID **/ 
+/** EXAMPLE 1 - THE BASIC GRID **/
 
 for (let i = 1; i <= 2; i++) {
-    console.log("Outer Loop (Row): " + i);
-    
-    for (let j = 1; j <= 3; j++) {
-        console.log("  Inner Loop (Column): " + j);
-    }
+	console.log("Outer Loop (Row): " + i);
+
+	for (let j = 1; j <= 3; j++) {
+		console.log("  Inner Loop (Column): " + j);
+	}
 }
 
-/** EXAMPLE 2 - SCANNING A 2D ARRAY **/ 
+/** EXAMPLE 2 - SCANNING A 2D ARRAY **/
 
 let cargoShip = [
-    ["Water", "Food"],
-    ["Tools", "Fuel"]
+	["Water", "Food"],
+	["Tools", "Fuel"],
 ];
 
 // Outer loop goes through the rows
 for (let i = 0; i < cargoShip.length; i++) {
-    console.log("Checking Row " + i);
-    
-    // Inner loop goes through items in THAT row
-    for (let j = 0; j < cargoShip[i].length; j++) {
-        console.log("-- Found: " + cargoShip[i][j]);
-    }
+	console.log("Checking Row " + i);
+
+	// Inner loop goes through items in THAT row
+	for (let j = 0; j < cargoShip[i].length; j++) {
+		console.log("-- Found: " + cargoShip[i][j]);
+	}
 }

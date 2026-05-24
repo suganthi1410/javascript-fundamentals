@@ -2,20 +2,20 @@
 
 // Utility helper function to draw clean sections in the console
 function formatHeader(title, isAlert) {
-    let cleanTitle = title.trim().toUpperCase();
-    let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
-    
-    console.log(`\n${border}`);
-    console.log(`  ${cleanTitle}`);
-    console.log(`${border}`);
+	let cleanTitle = title.trim().toUpperCase();
+	let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
+
+	console.log(`\n${border}`);
+	console.log(`  ${cleanTitle}`);
+	console.log(`${border}`);
 }
 
 /** EXAMPLE 1 - THE FOR...IN LOOP PROTOTYPE **/
 
 const hullIntegrityPercent = {
-    sectorAlpha: 98,
-    sectorBeta: 45,
-    sectorGamma: 12
+	sectorAlpha: 98,
+	sectorBeta: 45,
+	sectorGamma: 12,
 };
 
 formatHeader("Scanning Damage Matrix (for...in)", false);
@@ -23,13 +23,12 @@ formatHeader("Scanning Damage Matrix (for...in)", false);
 // DEMO: Loop over the object and check the value for each key, printing
 // either a warning (if the value is less than 50) or a status report (otherwise)
 
-
 /** EXAMPLE 2 - OBJECT REFLECTION VIA FOR...OF **/
 
 const lifeSupportReserves = {
-    waterTons: 340,
-    oxygenTons: 112,
-    rationCrates: 450
+	waterTons: 340,
+	oxygenTons: 112,
+	rationCrates: 450,
 };
 
 formatHeader("Extracting Value Vectors (Object.values)", false);

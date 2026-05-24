@@ -2,12 +2,12 @@
 
 let shipName = "Galactic Nova";
 
-/** EXAMPLE 1 - THE LENGTH PROPERTY **/ 
+/** EXAMPLE 1 - THE LENGTH PROPERTY **/
 
 // DEMO: Store the length of the ship's name in a variable,
 // then log it to the console.
 
-/** EXAMPLE 2 - BRACKET NOTATION **/ 
+/** EXAMPLE 2 - BRACKET NOTATION **/
 
 // DEMO: Store the first character of the ship's name in a variable,
 // then log it to the console.
@@ -22,7 +22,7 @@ let shipName = "Galactic Nova";
 
 /** EXAMPLE 4 - OUT OF BOUNDS **/
 
-// DEMO: Store the (nonexistent) 99th character of the ship's name 
+// DEMO: Store the (nonexistent) 99th character of the ship's name
 // in a variable, then log it to the console. What do you see?
 
 // DEMO: Make a git commit!

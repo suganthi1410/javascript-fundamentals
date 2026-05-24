@@ -14,7 +14,6 @@ let planet = "Jupiter";
 const firstInitial = planet[0];
 console.log(firstInitial); // J
 
-
 /** EXERCISE 2: STRING SURVEY **/
 
 let entryCode = "XJ-99-ALPHA";
@@ -23,16 +22,14 @@ let entryCode = "XJ-99-ALPHA";
 const codeLength = entryCode.length;
 console.log(codeLength); // 11
 
-
 /** EXERCISE 3: DYNAMIC INDEXING **/
 
 let shuttleID = "Discovery-5";
 
-// Without counting manually, grab the LAST character of the 
+// Without counting manually, grab the LAST character of the
 // shuttleID string and log it.
 const lastChar = shuttleID[shuttleID.length - 1];
 console.log(lastChar); // 5
-
 
 /** EXERCISE 4: COORDINATE SNAGGING **/
 

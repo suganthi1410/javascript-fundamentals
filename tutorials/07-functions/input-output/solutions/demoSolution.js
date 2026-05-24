@@ -50,8 +50,8 @@ function synthesizeWaterReactionMass(hydrogenTons, oxygenTons) {
 	let waterCompound = hydrogenTons + oxygenTons;
 	return waterCompound; // Sends the total tonnage back to the ship's computer
 
-	// console.log("This will never print!"); 
-    // // Unreachable code due to early return
+	// console.log("This will never print!");
+	// // Unreachable code due to early return
 }
 
 // Capturing the output: 50t of Hydrogen combined with 25t of Oxygen

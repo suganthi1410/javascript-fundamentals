@@ -9,10 +9,10 @@
 
 // This is our Higher-Order Function (The Manager)
 function processCargoManifest(weightInTons, processingWorker) {
-    let internalTaxRate = 0.05;
-    // Execute the processingWorker callback, passing it both 
-    // 'weightInTons' and 'internalTaxRate' and return its result
-    return processingWorker(weightInTons, internalTaxRate);
+	let internalTaxRate = 0.05;
+	// Execute the processingWorker callback, passing it both
+	// 'weightInTons' and 'internalTaxRate' and return its result
+	return processingWorker(weightInTons, internalTaxRate);
 }
 
 /*
@@ -24,17 +24,16 @@ function processCargoManifest(weightInTons, processingWorker) {
 let taxResult = processCargoManifest(500, (weight, tax) => weight * tax);
 console.log(`Withholding fee calculated: ${taxResult}t`);
 
-
 /** EXERCISE 2: INTERCEPT TRACER FACTORY **/
 
 function generateWeaponLauncher(weaponType) {
-    /*
+	/*
         Complete this Higher-Order Function so that it returns a brand-new 
         anonymous arrow function. 
         The returned function should accept a 'quantity' parameter and return 
         a template literal reading: "Firing [quantity] [weaponType] projectiles!"
     */
-    return (quantity) => `Firing ${quantity} ${weaponType} projectiles!`;
+	return quantity => `Firing ${quantity} ${weaponType} projectiles!`;
 }
 
 // Manufacturing the weapon instances

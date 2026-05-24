@@ -17,7 +17,6 @@ let rawPlanet = "   mars   ";
 const planetInitial = rawPlanet.trim().charAt(0).toUpperCase();
 console.log(planetInitial); // M
 
-
 /** EXERCISE 2: DATABASE READY ID **/
 
 let systemID = "ID-BR549-X";
@@ -29,7 +28,6 @@ let systemID = "ID-BR549-X";
 const cleanID = systemID.replace("ID-", "").toLowerCase();
 console.log(cleanID); // br549-x
 
-
 /** EXERCISE 3: SUBSTRING SEARCH **/
 
 let sensorData = "992-ZA11-00";
@@ -40,7 +38,6 @@ let sensorData = "992-ZA11-00";
 */
 const hasSpecificCode = sensorData.slice(4, 8).includes("Z");
 console.log(hasSpecificCode); // true
-
 
 /** EXERCISE 4: THE ULTIMATE CLEANUP **/
 

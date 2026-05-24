@@ -20,18 +20,18 @@
 
 let equipment = ["Drill", "Scanner", "Drill", "Laser"];
 
-/** EXAMPLE 1 - INCLUDES **/ 
+/** EXAMPLE 1 - INCLUDES **/
 
 let hasScanner = equipment.includes("Scanner");
 console.log(hasScanner); // true
 
-/** EXAMPLE 2 - INDEXOF **/ 
+/** EXAMPLE 2 - INDEXOF **/
 
 // Finds the first "Drill" at index 0
 let firstDrill = equipment.indexOf("Drill");
 console.log(firstDrill); // 0
 
-/** EXAMPLE 3 - LASTINDEXOF **/ 
+/** EXAMPLE 3 - LASTINDEXOF **/
 
 // Finds the last "Drill" at index 2
 let lastDrill = equipment.lastIndexOf("Drill");

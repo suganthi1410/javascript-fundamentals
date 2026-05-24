@@ -16,7 +16,6 @@ let csvData = "Mars,Jupiter,Saturn,Venus";
 const planets = csvData.split(",");
 console.log(planets); // ["Mars", "Jupiter", "Saturn", "Venus"]
 
-
 /** EXERCISE 2: THE URL BUILDER **/
 
 let pathSegments = ["users", "pilot", "settings"];
@@ -29,7 +28,6 @@ let pathSegments = ["users", "pilot", "settings"];
 const urlPath = pathSegments.join("/");
 console.log(urlPath); // "users/pilot/settings"
 
-
 /** EXERCISE 3: CHARACTER BREAKDOWN **/
 
 let secretCode = "ALPHAV7";
@@ -41,7 +39,6 @@ let secretCode = "ALPHAV7";
 */
 const codeChars = secretCode.split("");
 console.log(codeChars); // ["A", "L", "P", "H", "A", "V", "7"]
-
 
 /** EXERCISE 4: THE REVERSE-STRING TRICK **/
 

@@ -16,7 +16,6 @@ let userInput = "ready";
 const standardInput = userInput.toUpperCase();
 console.log(standardInput); // READY
 
-
 /** EXERCISE 2: SPACE POLICE **/
 
 let pilotNickname = "   Star-Lord   ";
@@ -28,7 +27,6 @@ let pilotNickname = "   Star-Lord   ";
 const cleanNickname = pilotNickname.trim();
 console.log(cleanNickname); // Star-Lord
 
-
 /** EXERCISE 3: SYSTEM UPGRADE **/
 
 let softwareVersion = "Version-Old-Station";
@@ -39,7 +37,6 @@ let softwareVersion = "Version-Old-Station";
 */
 const updatedVersion = softwareVersion.replace("Old", "New");
 console.log(updatedVersion); // Version-New-Station
-
 
 /** EXERCISE 4: LOWERCASE LOGGING **/
 

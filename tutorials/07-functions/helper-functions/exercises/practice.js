@@ -7,10 +7,10 @@
 
 /** EXERCISE 1: THE CARGO DISTRIBUTOR **/
 
-// TODO: Create a helper function named 'calculateMassInKg'. It should take 
+// TODO: Create a helper function named 'calculateMassInKg'. It should take
 // a parameter 'metricTons' and return that value multiplied by 1000.
 
-// TODO: Complete the main function below. Use your 'calculateMassInKg' helper 
+// TODO: Complete the main function below. Use your 'calculateMassInKg' helper
 // inside the loop to calculate each pod's weight in kilograms.
 function processLogisticsManifest(cargoPodsArray) {
 	console.log("--- Processing Logistics Manifest ---");
@@ -25,13 +25,12 @@ let cargoMass = [5, 12, 3.5];
 
 // TODO: Call your main function and test it with the cargoMass array
 
-
 /** EXERCISE 2: COMMUNICATION SCRUBBER **/
 
-// TODO: Create a helper function named 'sanitizeInput'. It should take a string 
+// TODO: Create a helper function named 'sanitizeInput'. It should take a string
 // parameter 'text', remove leading/trailing spaces, and convert it to lowercase.
 
-// TODO: Complete the main function below. Use your 'sanitizeInput' helper to 
+// TODO: Complete the main function below. Use your 'sanitizeInput' helper to
 // clean the user's transmission command before checking it.
 function processIncomingTransmission(rawCommand) {
 	let cleanCommand = null;

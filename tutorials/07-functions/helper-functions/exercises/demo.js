@@ -1,6 +1,6 @@
 /**** HELPER FUNCTIONS ****/
 
-/** EXAMPLE **/ 
+/** EXAMPLE **/
 
 // DEMO: Define a function that calculates a metric conversion
 

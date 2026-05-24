@@ -20,19 +20,19 @@
 
 let starships = ["Falcon", "Enterprise", "Serenity"];
 
-/** EXAMPLE 1 - ACCESSING VALUES **/ 
+/** EXAMPLE 1 - ACCESSING VALUES **/
 
 console.log(starships[0]); // Falcon
 console.log(starships[2]); // Serenity
 
-/** EXAMPLE 2 - MUTATING (CHANGING) DATA **/ 
+/** EXAMPLE 2 - MUTATING (CHANGING) DATA **/
 
 // The Falcon is undergoing repairs, let's replace it with the Razor Crest
 starships[0] = "Razor Crest";
 
 console.log(starships); // ["Razor Crest", "Enterprise", "Serenity"]
 
-/** EXAMPLE 3 - THE LENGTH PROPERTY **/ 
+/** EXAMPLE 3 - THE LENGTH PROPERTY **/
 
 console.log(starships.length); // 3
 

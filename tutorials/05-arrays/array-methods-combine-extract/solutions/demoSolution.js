@@ -16,7 +16,7 @@
     Unlike slice, splice mutates the original array.
 */
 
-/** EXAMPLE 1 - CONCAT (Merge) **/ 
+/** EXAMPLE 1 - CONCAT (Merge) **/
 
 let primaryEngines = ["Alpha", "Beta"];
 let backupEngines = ["Gamma"];
@@ -24,12 +24,12 @@ let backupEngines = ["Gamma"];
 let allEngines = primaryEngines.concat(backupEngines);
 console.log(allEngines); // ["Alpha", "Beta", "Gamma"]
 
-/** EXAMPLE 2 - SLICE (Extract) **/ 
+/** EXAMPLE 2 - SLICE (Extract) **/
 
 let fleet = ["Shuttle", "Fighter", "Cruiser", "Carrier"];
 
 // Take the first two ships (Index 0 and 1)
-let smallShips = fleet.slice(0, 2); 
+let smallShips = fleet.slice(0, 2);
 console.log(smallShips); // ["Shuttle", "Fighter"]
 
 /** EXAMPLE 3 - SPLICE (Remove & Replace) **/

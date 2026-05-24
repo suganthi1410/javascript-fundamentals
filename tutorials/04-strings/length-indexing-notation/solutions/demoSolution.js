@@ -17,13 +17,13 @@
 
 let shipName = "Galactic Nova";
 
-/** EXAMPLE 1 - THE LENGTH PROPERTY **/ 
+/** EXAMPLE 1 - THE LENGTH PROPERTY **/
 
 // .length gives the total count of characters.
 let nameLength = shipName.length;
 console.log(nameLength); // 13
 
-/** EXAMPLE 2 - BRACKET NOTATION **/ 
+/** EXAMPLE 2 - BRACKET NOTATION **/
 
 // Accessing the first character
 let firstLetter = shipName[0];

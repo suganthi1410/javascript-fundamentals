@@ -16,7 +16,6 @@ let missionID = "SCI-101-MARS";
 const deptCode = missionID.slice(0, 3);
 console.log(deptCode); // SCI
 
-
 /** EXERCISE 2: BIT BY BIT **/
 
 let binaryString = "110100101";
@@ -28,7 +27,6 @@ let binaryString = "110100101";
 const bitValue = binaryString.charAt(5);
 console.log(bitValue); // 0
 
-
 /** EXERCISE 3: END OF THE LINE **/
 
 let launchDate = "July-20-1969";
@@ -37,10 +35,9 @@ let launchDate = "July-20-1969";
     Extract the year from the end of the 
     'launchDate' string (the last 4 characters).
 */
-const launchYear = launchDate.slice(8); 
+const launchYear = launchDate.slice(8);
 // OR launchDate.slice(-4);
 console.log(launchYear); // 1969
-
 
 /** EXERCISE 4: THE MIDDLE MAN **/
 

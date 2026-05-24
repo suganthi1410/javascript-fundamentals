@@ -22,7 +22,7 @@ let entryCode = "XJ-99-ALPHA";
 
 let shuttleID = "Discovery-5";
 
-// TODO: Without counting manually, grab the LAST character of the 
+// TODO: Without counting manually, grab the LAST character of the
 // shuttleID string and log it.
 
 /** EXERCISE 4: COORDINATE SNAGGING **/

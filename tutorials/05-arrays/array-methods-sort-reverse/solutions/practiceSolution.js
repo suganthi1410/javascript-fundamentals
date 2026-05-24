@@ -16,7 +16,6 @@ let destinationStars = ["Vega", "Arcturus", "Betelgeuse", "Sirius"];
 destinationStars.sort();
 console.log(destinationStars); // ["Arcturus", "Betelgeuse", "Sirius", "Vega"]
 
-
 /** EXERCISE 2: REVERSE CHRONOLOGY **/
 
 let missionSteps = ["Launch", "Orbit", "Landing", "Exploration"];
@@ -28,7 +27,6 @@ let missionSteps = ["Launch", "Orbit", "Landing", "Exploration"];
 missionSteps.reverse();
 console.log(missionSteps); // ["Exploration", "Landing", "Orbit", "Launch"]
 
-
 /** EXERCISE 3: THE HIGHEST LETTER **/
 
 let signalCodes = ["X-9", "A-1", "M-4", "B-2"];
@@ -39,7 +37,6 @@ let signalCodes = ["X-9", "A-1", "M-4", "B-2"];
 */
 signalCodes.sort().reverse();
 console.log(signalCodes); // ["X-9", "M-4", "B-2", "A-1"]
-
 
 /** EXERCISE 4: THE NUMBER TRAP **/
 

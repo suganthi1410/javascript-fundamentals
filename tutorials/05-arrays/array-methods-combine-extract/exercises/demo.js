@@ -1,6 +1,6 @@
 /**** COMMON ARRAY METHODS: COMBINING & EXTRACTING ELEMENTS ****/
 
-/** EXAMPLE 1 - CONCAT (Merge) **/ 
+/** EXAMPLE 1 - CONCAT (Merge) **/
 
 let primaryEngines = ["Alpha", "Beta"];
 let backupEngines = ["Gamma"];
@@ -8,11 +8,11 @@ let backupEngines = ["Gamma"];
 // DEMO: Merge both engine arrays into a single new array
 // and log it to the console.
 
-/** EXAMPLE 2 - SLICE (Extract) **/ 
+/** EXAMPLE 2 - SLICE (Extract) **/
 
 let fleet = ["Shuttle", "Fighter", "Cruiser", "Carrier"];
 
-// DEMO: Create a copy of the first two elements and log 
+// DEMO: Create a copy of the first two elements and log
 // it to the console.
 
 /** EXAMPLE 3 - SPLICE (Remove & Replace) **/

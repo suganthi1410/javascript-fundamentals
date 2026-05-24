@@ -18,9 +18,9 @@ const torpedoCrateWeightsKg = [120, 150, 95, 110];
 /** EXERCISE 2: SECTOR SURVEY POPULATION SUMMARY **/
 
 const sectorHabitationHubs = [
-    { sectorName: "Ceres Station Core", populationCount: 600000 },
-    { sectorName: "Tycho Shipyards", populationCount: 15000 },
-    { sectorName: "Eros Outpost", populationCount: 100000 }
+	{ sectorName: "Ceres Station Core", populationCount: 600000 },
+	{ sectorName: "Tycho Shipyards", populationCount: 15000 },
+	{ sectorName: "Eros Outpost", populationCount: 100000 },
 ];
 
 /*

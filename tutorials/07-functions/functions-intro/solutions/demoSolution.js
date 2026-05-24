@@ -16,14 +16,14 @@
         - Invocation (Calling): Pressing the "start" button on 
         the machine, using parentheses (). This tells JavaScript 
         to execute the code inside.
-*/ 
+*/
 
 /** EXAMPLE 1 - DECLARING & CALLING **/
 
 // Phase 1: Declaration (The blueprint)
 function deploySolarPanels() {
-    console.log("Unlatching hinges...");
-    console.log("Solar panels fully deployed. ☀️");
+	console.log("Unlatching hinges...");
+	console.log("Solar panels fully deployed. ☀️");
 }
 
 // Phase 2: Invocation (Actually running it)
@@ -34,11 +34,11 @@ deploySolarPanels(); // Reusable! We just ran it a second time.
 
 // Functions help clean up our main execution flow
 function soundEmergencySiren() {
-    console.log("🚨 ALERT: HULL BREACH DETECTED! 🚨");
+	console.log("🚨 ALERT: HULL BREACH DETECTED! 🚨");
 }
 
 let hullBreach = true;
 
 if (hullBreach) {
-    soundEmergencySiren();
+	soundEmergencySiren();
 }

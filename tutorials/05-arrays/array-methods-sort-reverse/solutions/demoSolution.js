@@ -17,15 +17,14 @@
     with more advanced logic!
 */
 
-
-/** EXAMPLE 1 - SORT (Alphabetical) **/ 
+/** EXAMPLE 1 - SORT (Alphabetical) **/
 
 let planets = ["Persephone", "Haven", "Meridian", "Miranda"];
 
 planets.sort();
 console.log(planets); // ["Haven", "Meridian", "Miranda", "Persephone"]
 
-/** EXAMPLE 2 - REVERSE (Flipping Order) **/ 
+/** EXAMPLE 2 - REVERSE (Flipping Order) **/
 
 let countdown = [1, 2, 3, 4, 5];
 

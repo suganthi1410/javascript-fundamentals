@@ -2,15 +2,15 @@
 
 let serialNumber = "SN-992-ALPHA";
 
-/** EXAMPLE 1 - CHARAT **/ 
+/** EXAMPLE 1 - CHARAT **/
 
 // DEMO: Extract the fourth character
 
-/** EXAMPLE 2 - SLICE (Range) **/ 
+/** EXAMPLE 2 - SLICE (Range) **/
 
 // DEMO: Extract the three-digit number from the middle
 
-/** EXAMPLE 3 - SLICE (To the end) **/ 
+/** EXAMPLE 3 - SLICE (To the end) **/
 
 // DEMO: Extract "ALPHA" using the starting index
 

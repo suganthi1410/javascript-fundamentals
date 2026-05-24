@@ -1,12 +1,12 @@
 /**** COMMON ARRAY METHODS: SORTING & REVERSING ELEMENTS ****/
 
-/** EXAMPLE 1 - SORT (Alphabetical) **/ 
+/** EXAMPLE 1 - SORT (Alphabetical) **/
 
 let planets = ["Persephone", "Haven", "Meridian", "Miranda"];
 
 // DEMO: Sort the planets alphabetically, the print the array.
 
-/** EXAMPLE 2 - REVERSE (Flipping Order) **/ 
+/** EXAMPLE 2 - REVERSE (Flipping Order) **/
 
 let countdown = [1, 2, 3, 4, 5];
 
@@ -16,7 +16,7 @@ let countdown = [1, 2, 3, 4, 5];
 
 let crew = ["Zoe", "Wash", "Mal", "Kaylee"];
 
-// DEMO: Sort alphabetically, then reverse to get Z-A order and 
+// DEMO: Sort alphabetically, then reverse to get Z-A order and
 // log to the console.
 
 // DEMO: Make a git commit!

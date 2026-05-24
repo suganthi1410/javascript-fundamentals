@@ -1,6 +1,6 @@
 /**** FUNCTION INPUT & OUTPUT ****/
 
-/** EXAMPLE 1 - PARAMETERS & ARGUMENTS **/ 
+/** EXAMPLE 1 - PARAMETERS & ARGUMENTS **/
 
 // DEMO: Define a function to greet a crew member'crewName' is the parameter (the variable placeholder)
 
@@ -18,7 +18,7 @@
 // DEMO: Define a function that accepts amounts of hydrogen and oxygen and returns the total
 // What happens if you code a message to print after the line with the return statement?
 
-// DEMO: Call the function and pass in 50t of hydrogen and 25t of oxygen 
+// DEMO: Call the function and pass in 50t of hydrogen and 25t of oxygen
 // Store the result in a new variable and then print a sentence using it
 
 // DEMO: Make a git commit!

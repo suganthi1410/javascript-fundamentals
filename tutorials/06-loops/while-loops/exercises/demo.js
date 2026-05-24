@@ -1,11 +1,11 @@
 /**** WHILE LOOPS ****/
 
-/** EXAMPLE 1 - MANUAL COUNTING **/ 
+/** EXAMPLE 1 - MANUAL COUNTING **/
 
 // DEMO: Count down from 3 to 1 using a while loop, then
 // blast off into space
 
-/** EXAMPLE 2 - DYNAMIC DEPLETION **/ 
+/** EXAMPLE 2 - DYNAMIC DEPLETION **/
 
 let battery = 100;
 let distanceTraveled = 0;
@@ -22,8 +22,8 @@ let card;
 
 // DEMO: Keep taking the first card until we find the Ace
 while (card !== "Ace") {
-    card = deck.shift();
-    console.log("Drew: " + card);
+	card = deck.shift();
+	console.log("Drew: " + card);
 }
 
 // DEMO: Make a git commit!

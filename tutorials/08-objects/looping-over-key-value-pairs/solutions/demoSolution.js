@@ -18,43 +18,42 @@
 
 // Utility helper function to draw clean sections in the console
 function formatHeader(title, isAlert) {
-    let cleanTitle = title.trim().toUpperCase();
-    let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
-    
-    console.log(`\n${border}`);
-    console.log(`  ${cleanTitle}`);
-    console.log(`${border}`);
+	let cleanTitle = title.trim().toUpperCase();
+	let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
+
+	console.log(`\n${border}`);
+	console.log(`  ${cleanTitle}`);
+	console.log(`${border}`);
 }
 
 /** EXAMPLE 1 - THE FOR...IN LOOP PROTOTYPE **/
 
 const hullIntegrityPercent = {
-    sectorAlpha: 98,
-    sectorBeta: 45,
-    sectorGamma: 12
+	sectorAlpha: 98,
+	sectorBeta: 45,
+	sectorGamma: 12,
 };
 
 formatHeader("Scanning Damage Matrix (for...in)", false);
 
 for (let sectorKey in hullIntegrityPercent) {
-    // sectorKey holds the property names ("sectorAlpha", etc.)
-    // We use bracket notation to dynamically resolve the matching number value
-    let statusValue = hullIntegrityPercent[sectorKey];
-    
-    if (statusValue < 50) {
-        console.log(`⚠️ HULL BREACH WARNING: ${sectorKey} is critical at ${statusValue}%!`);
-    } else {
-        console.log(`System Stable: ${sectorKey} reports nominal levels at ${statusValue}%.`);
-    }
-}
+	// sectorKey holds the property names ("sectorAlpha", etc.)
+	// We use bracket notation to dynamically resolve the matching number value
+	let statusValue = hullIntegrityPercent[sectorKey];
 
+	if (statusValue < 50) {
+		console.log(`⚠️ HULL BREACH WARNING: ${sectorKey} is critical at ${statusValue}%!`);
+	} else {
+		console.log(`System Stable: ${sectorKey} reports nominal levels at ${statusValue}%.`);
+	}
+}
 
 /** EXAMPLE 2 - OBJECT REFLECTION VIA FOR...OF **/
 
 const lifeSupportReserves = {
-    waterTons: 340,
-    oxygenTons: 112,
-    rationCrates: 450
+	waterTons: 340,
+	oxygenTons: 112,
+	rationCrates: 450,
 };
 
 formatHeader("Extracting Value Vectors (Object.values)", false);
@@ -64,7 +63,7 @@ let valuesArray = Object.values(lifeSupportReserves);
 let combinedMass = 0;
 
 for (let singleValue of valuesArray) {
-    combinedMass += singleValue;
+	combinedMass += singleValue;
 }
 
 console.log(`Total storage weight footprint calculated at: ${combinedMass} units.`);

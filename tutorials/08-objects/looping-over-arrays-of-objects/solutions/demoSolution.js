@@ -20,9 +20,9 @@
 
 // Utility function definition
 function formatHeader(title, isAlert) {
-    let cleanTitle = title.trim().toUpperCase();
-    let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
-    console.log(`\n${border}\n  ${cleanTitle}\n${border}`);
+	let cleanTitle = title.trim().toUpperCase();
+	let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
+	console.log(`\n${border}\n  ${cleanTitle}\n${border}`);
 }
 
 // A collections matrix representing current operating ships in our sector

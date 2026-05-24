@@ -17,7 +17,6 @@ let commandShips = ["C-1"];
 const totalFleet = scoutShips.concat(commandShips);
 console.log(totalFleet); // ["S-1", "S-2", "C-1"]
 
-
 /** EXERCISE 2: DATA SAMPLING **/
 
 let sensorReadings = [0.5, 0.8, 1.2, 3.5, 4.0];
@@ -30,7 +29,6 @@ let sensorReadings = [0.5, 0.8, 1.2, 3.5, 4.0];
 const midRange = sensorReadings.slice(1, 4);
 console.log(midRange); // [0.8, 1.2, 3.5]
 
-
 /** EXERCISE 3: SURGICAL REMOVAL **/
 
 let inventory = ["Water", "Rations", "Old Boots", "Oxygen"];
@@ -41,7 +39,6 @@ let inventory = ["Water", "Rations", "Old Boots", "Oxygen"];
 */
 inventory.splice(2, 1);
 console.log(inventory); // ["Water", "Rations", "Oxygen"]
-
 
 /** EXERCISE 4: THE UPGRADE **/
 

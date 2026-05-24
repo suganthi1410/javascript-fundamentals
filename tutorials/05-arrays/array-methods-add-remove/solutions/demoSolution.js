@@ -20,18 +20,18 @@
 
 let supplyList = ["Water", "Food"];
 
-/** EXAMPLE 1 - PUSH (Add to End) **/ 
+/** EXAMPLE 1 - PUSH (Add to End) **/
 
 supplyList.push("Oxygen");
 console.log(supplyList); // ["Water", "Food", "Oxygen"]
 
-/** EXAMPLE 2 - POP (Remove from End) **/ 
+/** EXAMPLE 2 - POP (Remove from End) **/
 
 let removedItem = supplyList.pop();
 console.log(`Removed: ${removedItem}`); // Removed: Oxygen
 console.log(supplyList); // ["Water", "Food"]
 
-/** EXAMPLE 3 - UNSHIFT (Add to Front) **/ 
+/** EXAMPLE 3 - UNSHIFT (Add to Front) **/
 
 supplyList.unshift("Fuel");
 console.log(supplyList); // ["Fuel", "Water", "Food"]

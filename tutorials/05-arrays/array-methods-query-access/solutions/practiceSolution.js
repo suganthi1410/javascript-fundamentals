@@ -16,7 +16,6 @@ let detectedLifeforms = ["Human", "Droid", "Human"];
 const alienDetected = detectedLifeforms.includes("Alien");
 console.log(alienDetected); // false
 
-
 /** EXERCISE 2: TOOL LOCATOR **/
 
 let toolkit = ["Wrench", "Screwdriver", "Hammer", "Wrench"];
@@ -28,7 +27,6 @@ let toolkit = ["Wrench", "Screwdriver", "Hammer", "Wrench"];
 const wrenchIndex = toolkit.indexOf("Wrench");
 console.log(wrenchIndex); // 0
 
-
 /** EXERCISE 3: REPEAT OFFENDER **/
 
 let errorLog = ["A1", "B2", "A1", "C3"];
@@ -39,7 +37,6 @@ let errorLog = ["A1", "B2", "A1", "C3"];
 */
 const lastA1 = errorLog.lastIndexOf("A1");
 console.log(lastA1); // 2
-
 
 /** EXERCISE 4: SYSTEM VALIDATION **/
 

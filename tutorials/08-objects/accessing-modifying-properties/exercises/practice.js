@@ -7,9 +7,9 @@
 /** EXERCISE 1: COCKPIT CONFIGURATION **/
 
 const communicationSpecs = {
-    frequencyGhz: 8.4,
-    "encryption-protocol": "AES-256",
-    signalStrength: "GOOD"
+	frequencyGhz: 8.4,
+	"encryption-protocol": "AES-256",
+	signalStrength: "GOOD",
 };
 
 // TODO: Update the 'frequencyGhz' to 9.1 using dot notation.
@@ -21,7 +21,6 @@ communicationSpecs["encryption-protocol"] = "RSA-4096";
 console.log(`Encryption prtocol updated as ${communicationSpecs["encryption-protocol"]}`);
 // TODO: Log a full statement confirming the update using both bracket notation and dot notation.
 console.log(`confirmed Frequency and encryption-protocol are frquencyGhz : ${communicationSpecs.frequencyGhz} and encryption-protocol : ${communicationSpecs["encryption-protocol"]}`);
-
 
 /** EXERCISE 2: POPULATING ENEMY DATA **/
 
@@ -49,9 +48,9 @@ console.log(`shield-active : ${scanningDrone["shield-active"]}`);
 /** EXERCISE 3: THE TERMINAL SELECTOR **/
 
 const airlockControls = {
-    pressurePsi: 14.7,
-    oxygenLevel: 21,
-    sealIntact: true
+	pressurePsi: 14.7,
+	oxygenLevel: 21,
+	sealIntact: true,
 };
 
 let userTerminalQuery = "oxygenLevel";

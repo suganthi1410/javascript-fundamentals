@@ -13,11 +13,10 @@
     Then, invoke the function once below its declaration.
 */
 function greetCrew() {
-    console.log("Welcome back, Captain.");
+	console.log("Welcome back, Captain.");
 }
 
 greetCrew();
-
 
 /** EXERCISE 2: LIFE SUPPORT BOOST **/
 
@@ -27,9 +26,8 @@ greetCrew();
     Do not call it yet.
 */
 function activateOxygenBoost() {
-    console.log("Pumping extra oxygen into sectors A-D... Done.");
+	console.log("Pumping extra oxygen into sectors A-D... Done.");
 }
-
 
 /** EXERCISE 3: TRIGGERING THE PROTOCOL **/
 
@@ -41,18 +39,17 @@ let crewIsSleepy = true;
     you created in Exercise 2.
 */
 if (crewIsSleepy) {
-    activateOxygenBoost();
+	activateOxygenBoost();
 }
-
 
 /** EXERCISE 4: SEQUENTIAL AUTOMATION **/
 
 function startEngines() {
-    console.log("Engines: ONLINE.");
+	console.log("Engines: ONLINE.");
 }
 
 function clearLaunchPad() {
-    console.log("Launch pad: CLEARED.");
+	console.log("Launch pad: CLEARED.");
 }
 
 /*

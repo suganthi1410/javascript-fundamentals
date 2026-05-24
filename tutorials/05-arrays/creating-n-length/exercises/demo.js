@@ -1,11 +1,11 @@
 /**** ARRAYS OF N LENGTH ****/
 
-/** EXAMPLE 1 - THE CONSTRUCTOR **/ 
+/** EXAMPLE 1 - THE CONSTRUCTOR **/
 
-// DEMO: Create an array with 5 empty slots, then 
+// DEMO: Create an array with 5 empty slots, then
 // print both the array and its length.
 
-/** EXAMPLE 2 - FILLING DATA **/ 
+/** EXAMPLE 2 - FILLING DATA **/
 
 // DEMO: Declare an array of oxygen tanks and initialize
 // all of them to 100% at the same time. Print the array.

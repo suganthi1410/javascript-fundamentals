@@ -1,11 +1,11 @@
 /**** MULTI-DIMENSIONAL ARRAYS ****/
 
-/** EXAMPLE 1 - THE NESTED ARRAY **/ 
+/** EXAMPLE 1 - THE NESTED ARRAY **/
 
 // DEMO: Create an array that holds three arrays. Each of the inner
 // arrays should hold two strings.
 
-/** EXAMPLE 2 - ACCESSING NESTED DATA **/ 
+/** EXAMPLE 2 - ACCESSING NESTED DATA **/
 
 // DEMO: 1. Log the second row.
 

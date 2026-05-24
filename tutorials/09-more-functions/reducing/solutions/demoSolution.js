@@ -26,26 +26,25 @@ const sectorWaterRationsTons = [45, 12, 88, 34, 50];
 // Goal: Add all these individual shipment values together into one sum total
 // 0 is passed at the very end as our explicit Initial Value starting point
 const totalWaterReserves = sectorWaterRationsTons.reduce((accumulator, currentVal) => {
-    // We add the current item to our rolling total and return it to the next step
-    return accumulator + currentVal;
+	// We add the current item to our rolling total and return it to the next step
+	return accumulator + currentVal;
 }, 0);
 
 console.log(`Aggregate Regional Water Supply: ${totalWaterReserves} tons.`);
 
-
 /** EXAMPLE 2 - DATA EXTRACTS FROM OBJECT MATRIXES **/
 
 const crewManifest = [
-    { name: "James Holden", role: "Captain", dailyCalorieRequirement: 2500 },
-    { name: "Naomi Nagata", role: "Chief Engineer", dailyCalorieRequirement: 2200 },
-    { name: "Amos Burton", role: "Mechanic", dailyCalorieRequirement: 3100 },
-    { name: "Alex Kamal", role: "Pilot", dailyCalorieRequirement: 2400 }
+	{ name: "James Holden", role: "Captain", dailyCalorieRequirement: 2500 },
+	{ name: "Naomi Nagata", role: "Chief Engineer", dailyCalorieRequirement: 2200 },
+	{ name: "Amos Burton", role: "Mechanic", dailyCalorieRequirement: 3100 },
+	{ name: "Alex Kamal", role: "Pilot", dailyCalorieRequirement: 2400 },
 ];
 
 // Calculate total life support logistics by pooling food numbers out of object keys
 const totalDailyShipBurn = crewManifest.reduce((acc, member) => {
-    // acc represents the rolling calories sum; member represents the current object instance
-    return acc + member.dailyCalorieRequirement;
+	// acc represents the rolling calories sum; member represents the current object instance
+	return acc + member.dailyCalorieRequirement;
 }, 0); // Always declare your initial state (0) when counting object attributes!
 
 console.log(`Total Vessel Daily Ration Depletion: ${totalDailyShipBurn} kcal.`);

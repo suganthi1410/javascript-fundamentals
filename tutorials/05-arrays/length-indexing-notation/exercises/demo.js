@@ -2,16 +2,16 @@
 
 let starships = ["Falcon", "Enterprise", "Serenity"];
 
-/** EXAMPLE 1 - ACCESSING VALUES **/ 
+/** EXAMPLE 1 - ACCESSING VALUES **/
 
 // DEMO: Use bracket notation to print the first and last ships.
 
-/** EXAMPLE 2 - MUTATING (CHANGING) DATA **/ 
+/** EXAMPLE 2 - MUTATING (CHANGING) DATA **/
 
 // DEMO: The Falcon is undergoing repairs. Let's replace it with the Razor Crest,
 // then print the entire array afterward to show the change.
 
-/** EXAMPLE 3 - THE LENGTH PROPERTY **/ 
+/** EXAMPLE 3 - THE LENGTH PROPERTY **/
 
 // DEMO: Print the total number of ships in the array
 

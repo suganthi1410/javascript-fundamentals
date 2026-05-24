@@ -21,42 +21,41 @@
 
 // A standard, standalone function
 function fireThruster() {
-    console.log("Pumping water plasma... Thrusters firing! 🚀");
+	console.log("Pumping water plasma... Thrusters firing! 🚀");
 }
 
 const defensiveDrone = {
-    modelId: "Aegis-04",
-    ammoCount: 50,
-    // Assigning the function by reference (No parentheses!)
-    activatePropulsion: fireThruster 
+	modelId: "Aegis-04",
+	ammoCount: 50,
+	// Assigning the function by reference (No parentheses!)
+	activatePropulsion: fireThruster,
 };
 
 // Invoking the method directly off the object structure
 defensiveDrone.activatePropulsion();
 
-
 /** EXAMPLE 2 - INLINE METHODS & THE 'THIS' KEYWORD **/
 
 const lifeSupportSystem = {
-    sector: "Habitation Deck B",
-    oxygenPercentage: 85,
-    criticalThreshold: 90,
+	sector: "Habitation Deck B",
+	oxygenPercentage: 85,
+	criticalThreshold: 90,
 
-    // Declaring a method directly inline inside the object configuration
-    evaluateAtmosphere: function () {
-        // 'this' refers directly to the lifeSupportSystem object instance
-        if (this.oxygenPercentage < this.criticalThreshold) {
-            return `ALERT: ${this.sector} oxygen levels have dropped to ${this.oxygenPercentage}%!`;
-        } else {
-            return `${this.sector} atmospheric balance nominal at ${this.oxygenPercentage}%.`;
-        }
-    },
+	// Declaring a method directly inline inside the object configuration
+	evaluateAtmosphere: function () {
+		// 'this' refers directly to the lifeSupportSystem object instance
+		if (this.oxygenPercentage < this.criticalThreshold) {
+			return `ALERT: ${this.sector} oxygen levels have dropped to ${this.oxygenPercentage}%!`;
+		} else {
+			return `${this.sector} atmospheric balance nominal at ${this.oxygenPercentage}%.`;
+		}
+	},
 
-    // Methods can modify sister properties using 'this' as well
-    injectPureOxygen: function (tonnage) {
-        this.oxygenPercentage += tonnage;
-        console.log(`Injected ${tonnage}t of oxygen mass into internal ducts.`);
-    }
+	// Methods can modify sister properties using 'this' as well
+	injectPureOxygen: function (tonnage) {
+		this.oxygenPercentage += tonnage;
+		console.log(`Injected ${tonnage}t of oxygen mass into internal ducts.`);
+	},
 };
 
 // Execute evaluation

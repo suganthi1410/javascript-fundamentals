@@ -1,13 +1,13 @@
 /**** CONVERTING BETWEEN ARRAYS AND STRINGS ****/
 
-/** EXAMPLE 1 - SPLITTING BY SPACES **/ 
+/** EXAMPLE 1 - SPLITTING BY SPACES **/
 
 let sentence = "Engage thrusters now";
 
 // DEMO: Split the sentence into an array of three words (no spaces),
 // then log the result.
 
-/** EXAMPLE 2 - JOINING WITH HYPHENS **/ 
+/** EXAMPLE 2 - JOINING WITH HYPHENS **/
 
 let dateParts = ["2026", "05", "01"];
 
@@ -29,7 +29,7 @@ let rawData = "oxygen,fuel,water,rations";
 let labels = ["pencils", "Pens", "erasERs", "MARKERS"];
 
 // DEMO: Use method chaining to modify the elements in the array so that
-// each element is in allcaps and all elements are in order 
+// each element is in allcaps and all elements are in order
 // alphabetically. Store the new array in a variable and print it.
 
 // DEMO: Make a git commit!

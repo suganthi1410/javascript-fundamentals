@@ -2,11 +2,11 @@
 
 let rawData = "   lv-426-xenomorph   ";
 
-/** EXAMPLE 1 - CHANGING CASE **/ 
+/** EXAMPLE 1 - CHANGING CASE **/
 
 // DEMO: Convert to a loud, emergency shout
 
-/** EXAMPLE 2 - TRIMMING WHITESPACE **/ 
+/** EXAMPLE 2 - TRIMMING WHITESPACE **/
 
 // DEMO: Remove the leading and trailing spaces
 

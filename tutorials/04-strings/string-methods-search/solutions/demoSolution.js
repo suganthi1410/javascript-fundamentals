@@ -22,7 +22,7 @@
 
 let missionUpdate = "Targeting Mars: Arrival in 40 days.";
 
-/** EXAMPLE 1 - INDEX OF **/ 
+/** EXAMPLE 1 - INDEX OF **/
 
 // Find where "Mars" starts
 let planetIndex = missionUpdate.indexOf("Mars");
@@ -32,7 +32,7 @@ console.log(planetIndex); // 10
 let moonIndex = missionUpdate.indexOf("Moon");
 console.log(moonIndex); // -1
 
-/** EXAMPLE 2 - INCLUDES **/ 
+/** EXAMPLE 2 - INCLUDES **/
 
 // A simple yes/no check for a keyword
 let hasUrgentTag = missionUpdate.includes("URGENT");

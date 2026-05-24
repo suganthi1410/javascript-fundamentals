@@ -53,12 +53,10 @@ function scanGridSector(sectorName, sectorSizeKm) {
 
 	// RECURSIVE CASE: Sector is too big. Split it in half.
 	let subSectorSize = sectorSizeKm / 2;
-	console.log(
-		`Sector ${sectorName} (${sectorSizeKm}km) too large. Sub-dividing...`
-	);
+	console.log(`Sector ${sectorName} (${sectorSizeKm}km) too large. Sub-dividing...`);
 
 	// Conquering BOTH halves:
-	scanGridSector(`${sectorName} - Left Half`, subSectorSize);  // Scan first sub-zone
+	scanGridSector(`${sectorName} - Left Half`, subSectorSize); // Scan first sub-zone
 	scanGridSector(`${sectorName} - Right Half`, subSectorSize); // Scan second sub-zone
 }
 

@@ -16,7 +16,6 @@ let coordinates = [120, 500, 990];
 coordinates[1] = 750;
 console.log(coordinates); // [120, 750, 990]
 
-
 /** EXERCISE 2: DATA INSPECTION **/
 
 let planets = ["Mercury", "Venus", "Earth", "Mars"];
@@ -27,7 +26,6 @@ let planets = ["Mercury", "Venus", "Earth", "Mars"];
 */
 const thirdPlanet = planets[2];
 console.log(thirdPlanet); // Earth
-
 
 /** EXERCISE 3: SHIP REPAIRS **/
 
@@ -40,7 +38,6 @@ let systemStatus = [true, true, true, true];
 */
 systemStatus[systemStatus.length - 1] = false;
 console.log(systemStatus); // [true, true, true, false]
-
 
 /** EXERCISE 4: ARRAY GROWTH **/
 

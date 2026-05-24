@@ -1,10 +1,10 @@
 /**** FOR LOOPS ****/
 
-/** EXAMPLE 1 - BASIC COUNTING **/ 
+/** EXAMPLE 1 - BASIC COUNTING **/
 
 // DEMO: Print an ignition sequence from 1 to 3
 
-/** EXAMPLE 2 - LOOPING THROUGH AN ARRAY **/ 
+/** EXAMPLE 2 - LOOPING THROUGH AN ARRAY **/
 
 let planets = ["Mercury", "Venus", "Earth", "Mars"];
 

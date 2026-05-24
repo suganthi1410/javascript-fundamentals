@@ -2,11 +2,11 @@
 
 let messyInput = "   protocol-alpha-9   ";
 
-/** EXAMPLE 1 - CLEAN AND SHOUT **/ 
+/** EXAMPLE 1 - CLEAN AND SHOUT **/
 
 // DEMO: Trim the whitespace, then transform to upper case.
 
-/** EXAMPLE 2 - EXTRACT AND REPLACE **/ 
+/** EXAMPLE 2 - EXTRACT AND REPLACE **/
 
 // DEMO: Slice out "alpha-9" (index 12 to 19), then replace "alpha" with "omega"
 

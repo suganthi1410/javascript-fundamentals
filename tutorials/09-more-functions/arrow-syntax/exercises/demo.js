@@ -4,7 +4,7 @@
 
 // STAGE 1: Traditional Named Function Declaration
 function traditionalCalculateFuel(mass) {
-    return mass * 11.2;
+	return mass * 11.2;
 }
 
 // STAGE 2: Block-Body Arrow Function (Explicit Return)
@@ -22,7 +22,7 @@ function traditionalCalculateFuel(mass) {
 // 1. DEMO: On the next line, call the traditional function defined below
 
 function readTraditionalSensor() {
-    return "Telemetry Active";
+	return "Telemetry Active";
 }
 
 // 2. DEMO: On the next line, call the arrow function defined below
@@ -30,7 +30,6 @@ function readTraditionalSensor() {
 const readArrowSensor = () => "Telemetry Active";
 
 // DEMO: Call the arrow function again on the next line.
-
 
 // DEMO: Make a git commit!
 

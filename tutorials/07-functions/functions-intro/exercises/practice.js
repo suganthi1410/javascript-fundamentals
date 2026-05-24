@@ -34,14 +34,14 @@ let crewIsSleepy = true;
 /** EXERCISE 4: SEQUENTIAL AUTOMATION **/
 
 function startEngines() {
-    console.log("Engines: ONLINE.");
+	console.log("Engines: ONLINE.");
 }
 
 function clearLaunchPad() {
-    console.log("Launch pad: CLEARED.");
+	console.log("Launch pad: CLEARED.");
 }
 
 /*
     TODO: Call 'clearLaunchPad' first, and then call 'startEngines' 
     immediately after to ensure a safe, sequential liftoff.
-*/ 
+*/

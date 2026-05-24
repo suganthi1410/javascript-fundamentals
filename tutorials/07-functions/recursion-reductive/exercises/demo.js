@@ -2,7 +2,7 @@
 
 /** EXAMPLE - FUNCTIONAL REDUCTION **/
 
-let podWeights = [12, 8, 15, 5]; 
+let podWeights = [12, 8, 15, 5];
 
 // DEMO: Write a function that recursively totals the mass at each index in the array
 

@@ -1,4 +1,4 @@
-const readline = require('readline-sync');
+const readline = require("readline-sync");
 
 /**** PROBLEM-SOLVING WITH LOOPS: PRACTICE SOLUTION ****/
 
@@ -15,11 +15,10 @@ let podCount = readline.questionInt("How many fuel pods are being loaded? ");
 let totalWeight = 0;
 
 for (let i = 1; i <= podCount; i++) {
-    let weight = readline.questionInt(`Enter weight for pod #${i}: `);
-    totalWeight += weight;
+	let weight = readline.questionInt(`Enter weight for pod #${i}: `);
+	totalWeight += weight;
 }
 console.log("Total Fuel Weight: " + totalWeight);
-
 
 /** EXERCISE 2: EMERGENCY SHUTDOWN **/
 
@@ -34,14 +33,13 @@ console.log("Total Fuel Weight: " + totalWeight);
 */
 let coreTemp = 100;
 while (coreTemp > 0) {
-    console.log(`Current Core Temp: ${coreTemp}`);
-    let action = readline.question("Press 's' to spray coolant: ");
-    if (action === 's') {
-        coreTemp -= 20;
-    }
+	console.log(`Current Core Temp: ${coreTemp}`);
+	let action = readline.question("Press 's' to spray coolant: ");
+	if (action === "s") {
+		coreTemp -= 20;
+	}
 }
 console.log("Core stabilized at 0.");
-
 
 /** EXERCISE 3: THE MENU SYSTEM **/
 
@@ -55,13 +53,12 @@ console.log("Core stabilized at 0.");
 */
 let choice;
 do {
-    console.log("\n--- SHIP MENU ---");
-    console.log("1. View Logs\n2. System Status\n3. Exit");
-    choice = readline.question("Select an option: ");
-    
-    if (choice === "1") console.log("Showing logs...");
-    if (choice === "2") console.log("All systems nominal.");
-    
+	console.log("\n--- SHIP MENU ---");
+	console.log("1. View Logs\n2. System Status\n3. Exit");
+	choice = readline.question("Select an option: ");
+
+	if (choice === "1") console.log("Showing logs...");
+	if (choice === "2") console.log("All systems nominal.");
 } while (choice !== "3");
 console.log("Logging out...");
 

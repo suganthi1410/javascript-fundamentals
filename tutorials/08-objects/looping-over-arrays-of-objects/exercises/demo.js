@@ -2,9 +2,9 @@
 
 // Utility function definition
 function formatHeader(title, isAlert) {
-    let cleanTitle = title.trim().toUpperCase();
-    let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
-    console.log(`\n${border}\n  ${cleanTitle}\n${border}`);
+	let cleanTitle = title.trim().toUpperCase();
+	let border = isAlert ? `🚨 ==================== 🚨` : `🪐 -------------------- 🪐`;
+	console.log(`\n${border}\n  ${cleanTitle}\n${border}`);
 }
 
 // A collections matrix representing current operating ships in our sector
@@ -18,8 +18,8 @@ const sectorFleet = [
 
 formatHeader("Fleet Status Sweep (for...of)", false);
 
-// DEMO: Loop over the array of ship objects. 
-//  - If the vessel is active,print a report with their payload. 
+// DEMO: Loop over the array of ship objects.
+//  - If the vessel is active,print a report with their payload.
 //  - If it is undergoing maintenance,print a report stating that instead.
 
 /** EXAMPLE 2 - TOTAL LOGISTICS CALCULATION **/

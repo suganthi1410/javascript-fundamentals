@@ -23,24 +23,30 @@
 // This is our Higher-Order Function (The Manager)
 // It accepts a target name and a function
 function engageTacticalComputer(targetName, engageTarget) {
-    console.log(`[RADAR TRACKING]: Locking onto ${targetName}...`);
-    
-    // The manager executes the contractor function, passing it data
-    console.log(`[SYSTEM ENGAGED]: ${engageTarget(targetName)}`);
+	console.log(`[RADAR TRACKING]: Locking onto ${targetName}...`);
+
+	// The manager executes the contractor function, passing it data
+	console.log(`[SYSTEM ENGAGED]: ${engageTarget(targetName)}`);
 }
 
 // EXECUTION 1: Passing an in-place contractor to SCAN the target
-engageTacticalComputer("Unidentified Frigate", target => `Scan of ${target} Complete: Hull composition is 80% carbon.`);
+engageTacticalComputer(
+	"Unidentified Frigate",
+	target => `Scan of ${target} Complete: Hull composition is 80% carbon.`
+);
 
 // EXECUTION 2: Passing a completely different contractor to WEAPON LOCK the target
-engageTacticalComputer("Scout Drone-04", target => `Target locked. Railgun velocity calibrated to engage ${target}.`);
+engageTacticalComputer(
+	"Scout Drone-04",
+	target => `Target locked. Railgun velocity calibrated to engage ${target}.`
+);
 
 /** EXAMPLE 2 - RETURNING A FUNCTION FROM A HOF **/
 
 // HOFs can also manufacture and return brand-new specialized functions
 function createThrusterBurnCalculator(burnMultiplier) {
-    // This returns a custom, anonymous function to be used later
-    return (baseFuel) => baseFuel * burnMultiplier;
+	// This returns a custom, anonymous function to be used later
+	return baseFuel => baseFuel * burnMultiplier;
 }
 
 // Manufacturing two distinct calculation engines

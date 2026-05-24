@@ -2,7 +2,7 @@
 
 /** EXAMPLE 1 - THE HOF SYSTEM MANAGER **/
 
-// DEMO: Define a HOF that accepts a target name and a function that can describe 
+// DEMO: Define a HOF that accepts a target name and a function that can describe
 // specifically how that target is engaged.
 
 // DEMO: Pass an in-place contractor to SCAN the target

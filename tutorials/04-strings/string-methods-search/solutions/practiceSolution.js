@@ -16,7 +16,6 @@ let shipID = "USS-Enterprise-NCC-1701";
 const isFederationShip = shipID.startsWith("USS");
 console.log(isFederationShip); // true
 
-
 /** EXERCISE 2: CARGO SCANNER **/
 
 let manifest = "Water, Oxygen, Food, Medical Supplies";
@@ -28,7 +27,6 @@ let manifest = "Water, Oxygen, Food, Medical Supplies";
 const hasFuel = manifest.includes("Fuel");
 console.log(hasFuel); // false
 
-
 /** EXERCISE 3: COORDINATE LOCATION **/
 
 let coordinates = "284-991-X";
@@ -39,7 +37,6 @@ let coordinates = "284-991-X";
 */
 const firstHyphenIndex = coordinates.indexOf("-");
 console.log(firstHyphenIndex); // 3
-
 
 /** EXERCISE 4: TRANSMISSION ENDING **/
 

@@ -3,9 +3,9 @@
 /** EXAMPLE 1 - DOT VS BRACKET BASICS **/
 
 const cargoBay = {
-    manifestId: "CB-04",
-    "containment-status": "SECURE",
-    tonnage: 120
+	manifestId: "CB-04",
+	"containment-status": "SECURE",
+	tonnage: 120,
 };
 
 // DEMO: Use dot notation to modify the tonnage
@@ -36,9 +36,9 @@ console.log(`⚠️  Alert: containment-status is ${cargoBay["containment-status
 
 /** EXAMPLE 2 - DYNAMIC VARIABLE LOOKUPS **/
 const engineCore = {
-    temperature: 3200,
-    pressure: 150,
-    radiation: 12
+	temperature: 3200,
+	pressure: 150,
+	radiation: 12,
 };
 
 let statRequested = "pressure";
