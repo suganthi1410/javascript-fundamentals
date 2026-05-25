@@ -68,7 +68,6 @@ console.log("Deep Clone A:", deepCloneA);
 // DEMO: Serialize to a string and parse to create a new deep copy
 /** EXAMPLE 3 - THE TRUE DEEP CLONE SOLUTIONS **/
 
-
 // DEMO: Serialize to a string and parse to create a new deep copy
 const deepCloneLab = JSON.parse(JSON.stringify(originalMedicalLab));
 
