@@ -7,15 +7,20 @@ function traditionalCalculateFuel(mass) {
 	return mass * 11.2;
 }
 
-// STAGE 2: Block-Body Arrow Function (Explicit Return)
+// STAGE 2: Block-Body Arrow Function (Explicit Return);
 
 // DEMO: Rewrite the traditional function with transitional arrow syntax;
-
+const calculateFuelBlock = (mass) => {
+    return mass * 11.2;
+}
 // STAGE 3: Concise-Body Arrow Function (Implicit Return)
 
 // DEMO: Rewrite the function again with concise array syntax
+const calculateFuelConcise = (mass) => mass * 11.2;
 
 // DEMO: Test the concise arrow function
+console.log(`Concise arrow fuel: ${calculateFuelConcise(100)}`);
+
 
 /** EXAMPLE 2 - THE HOISTING PARADOX **/
 
@@ -30,7 +35,7 @@ function readTraditionalSensor() {
 const readArrowSensor = () => "Telemetry Active";
 
 // DEMO: Call the arrow function again on the next line.
-
+console.log(`Arrow sensor says: ${readArrowSensor()}`);
 // DEMO: Make a git commit!
 
 /* 
