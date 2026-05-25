@@ -10,6 +10,9 @@ logScannerReport("Sector Delta");
 logScannerReport("Sector Alpha");
 
 // DEMO: Execute the same function once without naming it
+(function (sector) {
+    console.log(`Internal scanner pinged at ${sector}.`);
+})("Sector Gamma");
 
 /** EXAMPLE 2 - A SIMPLE IN-PLACE USE CASE **/
 
@@ -22,6 +25,20 @@ console.log("Initializing countdown sequence... 3... 2... 1...");
 // Argument 2: The delay time in milliseconds (3000ms = 3s).
 
 // DEMO Use setTimeout() for the full countdown and a truly anonymous, single-use function
+// DEMO: Use setTimeout() for the full countdown and a truly anonymous, single-use function
+
+setTimeout(() => {
+    console.log("3...");
+    setTimeout(() => {
+        console.log("2...");
+        setTimeout(() => {
+            console.log("1...");
+            setTimeout(() => {
+                console.log("🚀 Thrusters ignited! Capsule has cleared the launchpad.");
+            }, 1000);
+        }, 1000);
+    }, 1000);
+}, 1000);
 
 // DEMO: Make a git commit!
 
