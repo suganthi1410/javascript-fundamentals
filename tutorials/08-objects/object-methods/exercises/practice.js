@@ -21,6 +21,8 @@ const communicationArray = {
     object using a new key named 'broadcast'. 
     Then, execute the method from the object.
 */
+communicationArray.broadcast = transmitMessage;
+communicationArray.broadcast();
 
 /** EXERCISE 2: CORE HEALTH CALCULATOR **/
 
@@ -40,6 +42,7 @@ const engineeringDriveCore = {
 	},
 };
 
+
 // TODO: Test the method by calling it on the object.
 console.log(engineeringDriveCore.checkThermalSafety());
 
@@ -58,7 +61,21 @@ const fuelPod = {
             - If it fits: add the amount to 'this.currentReserveTons' and log the success.
             Use template literals for both logs.
         */
-	},
+	          if (this.currentReserveTons + amount > this.maxCapacityTons) {
+            console.log(
+                `⚠️ Refuel aborted: Adding ${amount} tons would exceed ${this.podIdentifier}'s capacity of ${this.maxCapacityTons} tons.`
+            );
+        } else {
+            this.currentReserveTons += amount;
+            console.log(
+                `✅ Refuel successful: ${this.podIdentifier} now holds ${this.currentReserveTons} tons of fuel.`
+            );
+        }
+    },
 };
 
+
+	
 // TODO: Test the method with a value that should fail, then again with one that should succeed.
+fuelPod.addFuel(500);
+fuelPod.addFuel(50);
