@@ -7,6 +7,10 @@ const rawCoreVoltages = [112, 115, 108, 122];
 console.log("--- SCANNING VOLTAGE ARRAY (.forEach) ---");
 
 // DEMO: Use .forEach() to generate a printout for each voltage in the array.
+rawCoreVoltages.forEach(voltage => {
+    console.log(`Voltage reading: ${voltage}v`);
+});
+
 
 /** EXAMPLE 2 - MAP DATA RECONSTRUCTION **/
 
@@ -18,8 +22,14 @@ const defenseSatellites = [
 
 // DEMO: Use .map() to create a new array with a copy of all objects, updating
 // the ammoCount property to 100 for each object.
+const reloadedSatellites = defenseSatellites.map(sat => {
+    return { ...sat, ammoCount: 100 };
+});
 
 // DEMO: Print the ammoCount property of the second element in both arrays
+
+console.log("Original second ammo:", defenseSatellites[1].ammoCount);
+console.log("Reloaded second ammo:", reloadedSatellites[1].ammoCount);
 
 // DEMO: Make a git commit!
 
